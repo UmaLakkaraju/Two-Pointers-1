@@ -25,7 +25,7 @@ public class SortColors {
 
     public static void main(String[] args) {
         SortColors sortColors=new SortColors();
-        int[] nums=new int[]{2,0,2,1,1,0};
+        int[] nums=new int[]{1,2,0,2,1,1,0};
         sortColors.sortColors(nums);
         for(int i:nums)
         System.out.println(i);
