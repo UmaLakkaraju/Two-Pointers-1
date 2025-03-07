@@ -1,4 +1,8 @@
 public class SortColors {
+
+    /*
+    O(N) space and constant O(1) time complexity.
+    * */
     public void sortColors(int[] nums) {
         int low =0;
         int mid =0;
